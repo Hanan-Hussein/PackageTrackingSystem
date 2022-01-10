@@ -1,0 +1,2 @@
+alter table PACKAGETRACKINGSYSTEM_PACKAGE drop column RECEIVER_ID__U99913 cascade ;
+alter table PACKAGETRACKINGSYSTEM_PACKAGE drop column SENDER_ID__U73073 cascade ;

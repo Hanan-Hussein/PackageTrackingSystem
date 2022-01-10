@@ -1,0 +1,10 @@
+alter table PACKAGETRACKINGSYSTEM_PACKAGE rename column sender_id to sender_id__u73073 ;
+alter table PACKAGETRACKINGSYSTEM_PACKAGE rename column receiver_id to receiver_id__u99913 ;
+alter table PACKAGETRACKINGSYSTEM_PACKAGE add column RECEIVER_LAST_NAME varchar(255) ;
+alter table PACKAGETRACKINGSYSTEM_PACKAGE add column RECIEVER_LAST_NAME varchar(255) ;
+alter table PACKAGETRACKINGSYSTEM_PACKAGE add column SENDER_NATIONAL_I varchar(255) ;
+alter table PACKAGETRACKINGSYSTEM_PACKAGE add column SENDER_EMAIL varchar(255) ;
+alter table PACKAGETRACKINGSYSTEM_PACKAGE add column RECEIVER_EMAIL varchar(255) ;
+alter table PACKAGETRACKINGSYSTEM_PACKAGE add column SENDER_LAST_NAME varchar(255) ;
+alter table PACKAGETRACKINGSYSTEM_PACKAGE add column DESTINATION_TO varchar(255) ;
+alter table PACKAGETRACKINGSYSTEM_PACKAGE add column SENDER_PHONE_NUMBER varchar(255) ;

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services xmlns="http://schemas.haulmont.com/cuba/rest-services-v2.xsd">
+
+    <service name="packagetrackingsystem_CreateAdminService">
+        <method name="createAdmin">
+            <param name="admin" type="ke.yh_world_enterprises.packagetrackingsystem.entity.Admin"/>
+        </method>
+    </service>
+    <service name="packagetrackingsystem_CreateCustomerService">
+        <method name="createCustomer">
+            <param name="customer" type="ke.yh_world_enterprises.packagetrackingsystem.entity.Customer"/>
+        </method>
+    </service>
+    <service name="packagetrackingsystem_CreateOrderService">
+        <method name="createOrder">
+            <param name="pg" type="ke.yh_world_enterprises.packagetrackingsystem.entity.Package"/>
+        </method>
+    </service>
+</services>
+
